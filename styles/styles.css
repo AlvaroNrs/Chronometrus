@@ -62,11 +62,10 @@ body {
 
 
 header {
-    padding: 1em 0;
+    padding: 2em 0;
     align-items: center;
     color: var(--cor-primaria);
     background-color: var(--cor-quarternaria);
-    height: 15%;
 }
 
 main {
@@ -75,36 +74,35 @@ main {
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    height: 65%;
 }
 
 footer {
     background-color: var(--cor-primaria);
     color:var(--cor-quarternaria);
-    height: 13.2%;
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 5em;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-size: 3em;
 }
 
 body p {
-    font-size: .75em;
+    font-size: 1.5em;
 }
 
 header hr {
     width: 60%;
     border: solid;
-    height: 0.05px;
+    height: 0.1px;
     color: var(--cor-primaria);
 }
 
 footer p {
-    padding: 1.5em 0 1.2em 0;
+    padding: 2em 0 1.3em 0;
+    height: 100vh;
 }
 
 footer a {
@@ -113,22 +111,21 @@ footer a {
 }
 
 .inicio {
-    padding-top: 1.5em;
+    padding-top: 3em;
 }
 
 .titulo__mood {
-    border-radius: 1.5em;
-    padding: 0.5em;
+    border-radius: 2em;
+    padding: 1em;
     background-color: var(--cor-quarternaria);
-    margin-top: 0.8em;
     color: var(--cor-primaria);
 }
 
 .lista__moods {
-    margin-top: 0.5em;
+    margin-top: 1em;
     display: flex;
     flex-direction: row;
-    gap: 1em;
+    gap: 2em;
 }
 
 .lista__moods button {
@@ -147,6 +144,7 @@ footer a {
     font-weight: 600;
     font-family: var(--fonte-principal);
     border-radius: 1em;
+    font-size: 2em;
     padding: 0.2em 0.5em;
 }
 
@@ -165,7 +163,7 @@ footer a {
 }
 
 .texto__cronometro {
-    font-size: 5em;
+    font-size: 7em;
     color: var(--cor-quarternaria);
     margin: 0.2em 0;
 }
@@ -173,7 +171,7 @@ footer a {
 .controle__cronometro, .reinicio__cronometro {
     color: var(--cor-primaria);
     background-color: var(--cor-quarternaria);
-    font-size: 1.5em;
+    font-size: 3em;
     font-family: var(--fonte-principal);
     border: none;
     border-radius: 0.2em;
