@@ -159,7 +159,7 @@ footer a {
 .container__relogio {
     margin: 1em 0;
     text-align: center;
-    width: 50%;
+    padding: 1.5em;
     background-color: var(--cor-primaria);
     border-radius: 1.5em;
 }
