@@ -1,0 +1,193 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=New+Rocker&display=swap");
+
+
+:root {
+
+    --fonte-principal: "Naum Gothic", sans-serif;
+    --cor-primaria: #F2CEA2;
+    --cor-secundaria: #D9725B;
+    --cor-terciaria: #A62934;
+    --cor-quarternaria: #515932;
+
+    /*Top*/
+    --fonte-top: "Bebas Neue", sans-serif;
+    --cor-primaria-top: #F2C641;
+    --cor-secundaria-top: #342E59;
+    --cor-terciaria-top: #816eff;
+    --cor-quarternaria-top: #221F73;
+
+    /*Motivado*/
+    --fonte-motivado: "Merienda", sans-serif;
+    --cor-primaria-motivado: #F2A81D;
+    --cor-secundaria-motivado: #5888A6;
+    --cor-terciaria-motivado: #591708;
+    --cor-quarternaria-motivado: #BF4011;
+
+    /*Bad*/
+    --fonte-bad: "Julius Sans One", sans-serif;
+    --cor-primaria-bad: #ADCADB;
+    --cor-secundaria-bad: #3A4A70;
+    --cor-terciaria-bad: #3A4A70;
+    --cor-quarternaria-bad: #162140;
+
+    /*Pistola*/
+    --fonte-pistola: "New Rocker", sans-serif;
+    --cor-primaria-pistola: #CD300D;
+    --cor-secundaria-pistola: #920F00;
+    --cor-terciaria-pistola: #920F00;
+    --cor-quarternaria-pistola: #000B00;
+
+    /*Chilling*/
+    --fonte-chilling: "Architects Daughter", sans-serif;
+    --cor-primaria-chilling: #042940;
+    --cor-secundaria-chilling: #005C53;
+    --cor-terciaria-chilling: #DBF227;
+    --cor-quarternaria-chilling: #D6D58E;
+
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    font-family: var(--fonte-principal);
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+header {
+    padding: 1em 0;
+    align-items: center;
+    color: var(--cor-primaria);
+    background-color: var(--cor-quarternaria);
+    height: 15%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 65%;
+}
+
+footer {
+    background-color: var(--cor-primaria);
+    color:var(--cor-quarternaria);
+    height: 13.2%;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+body p {
+    font-size: .75em;
+}
+
+header hr {
+    width: 60%;
+    border: solid;
+    height: 0.05px;
+    color: var(--cor-primaria);
+}
+
+footer p {
+    padding: 1.5em 0 1.2em 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.inicio {
+    padding-top: 1.5em;
+}
+
+.titulo__mood {
+    border-radius: 1.5em;
+    padding: 0.5em;
+    background-color: var(--cor-quarternaria);
+    margin-top: 0.8em;
+    color: var(--cor-primaria);
+}
+
+.lista__moods {
+    margin-top: 0.5em;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.lista__moods button {
+    background-color: transparent;
+    border: none;
+}
+
+.lista__moods li:hover {
+    background-color: var(--cor-quarternaria);
+    color: var(--cor-primaria);
+}
+
+.item__mood {
+    background-color: var(--cor-primaria);
+    color: var(--cor-quarternaria);
+    font-weight: 600;
+    font-family: var(--fonte-principal);
+    border-radius: 1em;
+    padding: 0.2em 0.5em;
+}
+
+.ativo {
+    background-color: var(--cor-quarternaria);
+    color: var(--cor-primaria);
+    
+}
+
+.container__relogio {
+    margin: 1em 0;
+    text-align: center;
+    width: 50%;
+    background-color: var(--cor-primaria);
+    border-radius: 1.5em;
+}
+
+.texto__cronometro {
+    font-size: 5em;
+    color: var(--cor-quarternaria);
+    margin: 0.2em 0;
+}
+
+.controle__cronometro, .reinicio__cronometro {
+    color: var(--cor-primaria);
+    background-color: var(--cor-quarternaria);
+    font-size: 1.5em;
+    font-family: var(--fonte-principal);
+    border: none;
+    border-radius: 0.2em;
+    margin-bottom: 0.8em;
+}
+
+.oculto {
+    display: none;
+}
+
+.fa-play, .fa-pause, .fa-rotate-right {
+    margin: 0 0.2em;
+}
+
+.controle__cronometro:hover, .reinicio__cronometro:hover{
+    background-color: var(--cor-secundaria);
+}
