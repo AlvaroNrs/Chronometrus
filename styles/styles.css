@@ -74,11 +74,13 @@ main {
     text-align: center;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 footer {
     background-color: var(--cor-primaria);
     color:var(--cor-quarternaria);
+    width: 100vw;
 }
 
 h1 {
@@ -188,4 +190,71 @@ footer a {
 
 .controle__cronometro:hover, .reinicio__cronometro:hover{
     background-color: var(--cor-secundaria);
+}
+
+
+@media (max-width: 700px)
+{
+    
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+body p {
+    font-size: 1.5em;
+}
+
+header hr {
+    width: 60%;
+    border: solid;
+    height: 0.1px;
+    color: var(--cor-primaria);
+}
+
+footer p {
+    padding: 2em 0 1.3em 0;
+    height: 100vh;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.inicio {
+    padding-top: 2em;
+    flex-direction: column;
+}
+
+.titulo__mood {
+    padding: 0.4em .5em;
+}
+
+.lista__moods {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.texto__cronometro {
+    font-size: 4.5em;
+    color: var(--cor-quarternaria);
+    margin: 0.2em 0;
+}
+
 }
