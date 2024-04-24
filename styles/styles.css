@@ -80,7 +80,6 @@ main {
 footer {
     background-color: var(--cor-primaria);
     color:var(--cor-quarternaria);
-    width: 100vw;
 }
 
 h1 {
@@ -104,7 +103,6 @@ header hr {
 
 footer p {
     padding: 2em 0 1.3em 0;
-    height: 100vh;
 }
 
 footer a {
@@ -226,7 +224,6 @@ header hr {
 
 footer p {
     padding: 2em 0 1.3em 0;
-    height: 100vh;
 }
 
 footer a {
