@@ -80,6 +80,7 @@ main {
 footer {
     background-color: var(--cor-primaria);
     color:var(--cor-quarternaria);
+    width: 100vw;
 }
 
 h1 {
