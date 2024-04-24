@@ -10,4 +10,4 @@
   <li>A cada tema selecionado, o esquema de cores, tipografia e música mudam</li>
 </ul>
 
-<h3>Teste a página através do link: </h3>
+<h3><a href="https://alvaronrs.github.io/Chronometrus/">Teste a página aqui</a></h3>
