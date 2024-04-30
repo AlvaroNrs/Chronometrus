@@ -10,4 +10,4 @@
   <li>A cada tema selecionado, o esquema de cores, tipografia e música mudam após um pequeno tempo de transição</li>
 </ul>
 
-<h3><a href="https://alvaronrs.github.io/Chronometrus/">Teste a página aqui</a></h3>
+<h3><a href="https://chronometrus.vercel.app">Teste a página aqui</a></h3>
